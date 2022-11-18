@@ -5,3 +5,8 @@ function howManyHocktopi(){
     }
   }
   howManyHocktopi();
+  
+  let response = prompt("Who Is Your Favorite Hockey Team? 'Hint: Seattle Kraken'");
+  while (response !== 'Seattle Kraken'){
+    response = prompt("Nope!");
+  }
